@@ -12,7 +12,8 @@ Styling	Tailwind CSS, PostCSS
 State Mgmt	Context API, Custom Hooks
 
 
-🧱 Project Structure
+## 🧱 Project Structure
+
 vahan-bazar/
 │
 ├── frontend/                         # React + TypeScript + Tailwind CSS
@@ -51,6 +52,7 @@ vahan-bazar/
 │   └── README.md
 │
 └── README.md
+
 
 🌟 Key Features
 
