@@ -81,14 +81,14 @@ cd frontend
 npm install
 npm run dev
 ```
-###Backend
+### Backend
 ```bash
 cd backend
 npm install
 npm run dev
 ```
 
-###🔐 Environment Variables
+### 🔐 Environment Variables
 Create a .env file in the backend folder with:
 ```
 DB_HOST=localhost
@@ -97,7 +97,7 @@ DB_PASS=your_db_password
 JWT_SECRET=your_jwt_secret
 ```
 
-📌 Future Enhancements
+## 📌 Future Enhancements
 Dealer dashboard with analytics
 
 Admin panel for content moderation
