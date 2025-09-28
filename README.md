@@ -1,46 +1,135 @@
-# Getting Started with Create React App
+🏍️ Vahan Bazar – Full Stack Bike Marketplace
+Vahan Bazar is a modern, full-stack web application that allows users to buy, sell, compare, and explore bikes. It features a sleek dark-themed UI, dynamic filters, and robust backend APIs—designed for scalability and performance.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Tech Stack
+Layer	Technology
+Frontend	React, TypeScript, Tailwind CSS
+Backend	Node.js, Express, Sequelize
+Database	PostgreSQL / MySQL
+Auth	JWT, Protected Routes
+Styling	Tailwind CSS, PostCSS
+State Mgmt	Context API, Custom Hooks
 
-## Available Scripts
+🧱 Project Structure
+Curban-bazar/
+│
+├── frontend/                         # React + TypeScript + Tailwind CSS
+│   ├── public/                       # Static assets
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   │
+│   ├── src/
+│   │   ├── assets/                   # Images, icons, logos
+│   │   ├── components/              # Reusable UI components
+│   │   │   ├── Navbar.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   ├── ProtectedRoute.tsx
+│   │   │   └── ...
+│   │   ├── contexts/                # Global state (e.g. AuthContext)
+│   │   ├── hooks/                   # Custom React hooks
+│   │   ├── pages/                   # Route-level views
+│   │   │   ├── Home.tsx
+│   │   │   ├── Bikes.tsx
+│   │   │   ├── BikeDetail.tsx
+│   │   │   ├── UsedBikes.tsx
+│   │   │   ├── Showrooms.tsx
+│   │   │   ├── Compare.tsx
+│   │   │   ├── Finance.tsx
+│   │   │   ├── Upcoming.tsx
+│   │   │   ├── Favorites.tsx
+│   │   │   ├── Bookings.tsx
+│   │   │   ├── DealerDashboard.tsx
+│   │   │   ├── Login.tsx
+│   │   │   ├── Register.tsx
+│   │   │   ├── Profile.tsx
+│   │   │   └── ...
+│   │   ├── utils/                   # Utility functions
+│   │   │   └── api.ts               # API service layer
+│   │   ├── App.tsx                  # Main app component with routing
+│   │   ├── App.css                  # Component-level styles
+│   │   ├── index.tsx                # Entry point
+│   │   ├── index.css                # Global styles
+│   │   └── theme.js                 # Theme variables (optional)
+│   │
+│   ├── package.json
+│   ├── postcss.config.js
+│   └── README.md
+│
+├── backend/                          # Node.js + Express + Sequelize
+│   ├── config/                       # DB config and environment setup
+│   │   ├── config.json
+│   │   └── database.js
+│   ├── controllers/                 # Business logic for each route
+│   ├── middleware/                  # Auth, error handling, etc.
+│   ├── migrations/                  # Sequelize migration files
+│   ├── models/                      # Sequelize models
+│   ├── routes/                      # API endpoints
+│   │   ├── alerts.js
+│   │   ├── auth.js
+│   │   ├── bikes.js
+│   │   ├── bookings.js
+│   │   ├── compare.js
+│   │   ├── dealers.js
+│   │   ├── finance.js
+│   │   ├── reviews.js
+│   │   ├── showrooms.js
+│   │   ├── upcoming.js
+│   │   ├── usedBikes.js
+│   │   └── users.js
+│   ├── seeders/                     # Initial data population
+│   ├── utils/                       # Helper functions
+│   ├── app.js                       # Express app setup
+│   ├── server.js                    # Server entry point
+│   ├── .env                         # Environment variables
+│   ├── env.local                    # Local environment overrides
+│   ├── package.json
+│   ├── package-lock.json
+│   └── README.md
+│
+└── README.md                        # Root-level documentation
 
-In the project directory, you can run:
+🌟 Key Features
+🔍 Browse Bikes: Filter by brand, fuel type, price, and more
 
-### `npm start`
+⚖️ Compare Bikes: Side-by-side spec comparison
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+🛵 Used Bikes Marketplace: Verified listings with location and price
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+🏢 Showroom Locator: Map-based search with booking options
 
-### `npm test`
+📅 Upcoming Launches: Timeline of future bike models
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+❤️ Favorites: Save and track preferred bikes
 
-### `npm run build`
+🔐 Authentication: Role-based access for users and dealers
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+💸 Finance Tools: EMI calculator and booking management
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📦 Installation
+bash
+# Frontend
+cd frontend
+npm install
+npm run dev
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Backend
+cd backend
+npm install
+npm run dev
 
-### `npm run eject`
+🔐 Environment Variables
+Create a .env file in the backend with:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+DB_HOST=localhost
+DB_USER=your_db_user
+DB_PASS=your_db_password
+JWT_SECRET=your_jwt_secret
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📌 Future Enhancements
+Dealer dashboard with analytics
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Admin panel for content moderation
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Payment gateway integration
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Push notifications for launches and offers
