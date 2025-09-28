@@ -19,7 +19,7 @@ Enjoy a smooth, secure, and responsive experience
 
 Vaahan Bazaar solves this by combining a React frontend with a Node.js + Express backend, a MongoDB database, and Socket.io for real-time updates.
 
-Detailed Proposal & Features
+#### Detailed Proposal & Features
 
 Frontend: React + TypeScript + Tailwind CSS for styling
 
@@ -119,7 +119,7 @@ vahan-bazar/
 ---
 ## Team Contributions 
 
-#### Lokya Lochana (Lead – Backend & Integration)
+### Lokya Lochana (Lead – Backend & Integration)
 
 Designed & implemented backend APIs (Express + JWT)
 
@@ -127,7 +127,7 @@ Integrated Socket.io for real-time messaging
 
 Coordinated project structure & flow
 
-#### Sri Hari Krishna (Frontend Developer)
+### Sri Hari Krishna (Frontend Developer)
 
 Built React pages & components
 
@@ -135,7 +135,7 @@ Implemented filtering, navigation, and state management
 
 Integrated Tailwind CSS for styling
 
-#### Tanmai (UI/UX Designer)
+### Tanmai (UI/UX Designer)
 
 Designed wireframes in Figma
 
@@ -143,7 +143,7 @@ Ensured responsive layouts & intuitive navigation
 
 Styled mobile and desktop interfaces
 
-#### Saloni (Database Developer)
+### Saloni (Database Developer)
 
 Modeled MongoDB schemas for users, vehicles, chats
 
@@ -151,7 +151,7 @@ Indexed queries for faster search
 
 Setup MongoDB Atlas for hosting
 
-#### Nayana (Frontend & Demo Specialist)
+### Nayana (Frontend & Demo Specialist)
 
 Worked on UI polish and animations
 
