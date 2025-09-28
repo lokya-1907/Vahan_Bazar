@@ -18,7 +18,7 @@ Vahan Bazar is a modern, full-stack web application that allows users to **buy, 
 ---
 
 ## 🧱 Project Structure
-
+```
 vahan-bazar/
 │
 ├── frontend/ # React + TypeScript + Tailwind CSS
@@ -57,10 +57,7 @@ vahan-bazar/
 │ └── README.md
 │
 └── README.md
-
-yaml
-Copy code
-
+```
 ---
 
 ## 🌟 Key Features
@@ -83,21 +80,23 @@ Copy code
 cd frontend
 npm install
 npm run dev
-Backend
-bash
-Copy code
+```
+###Backend
+```bash
 cd backend
 npm install
 npm run dev
-🔐 Environment Variables
-Create a .env file in the backend folder with:
+```
 
-env
-Copy code
+###🔐 Environment Variables
+Create a .env file in the backend folder with:
+```
 DB_HOST=localhost
 DB_USER=your_db_user
 DB_PASS=your_db_password
 JWT_SECRET=your_jwt_secret
+```
+
 📌 Future Enhancements
 Dealer dashboard with analytics
 
