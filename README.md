@@ -11,7 +11,7 @@ Styling	Tailwind CSS, PostCSS
 State Mgmt	Context API, Custom Hooks
 
 🧱 Project Structure
-Curban-bazar/
+vahan-bazar/
 │
 ├── frontend/                         # React + TypeScript + Tailwind CSS
 │   ├── public/                       # Static assets
@@ -86,7 +86,7 @@ Curban-bazar/
 │   ├── package-lock.json
 │   └── README.md
 │
-└── README.md                        # Root-level documentation
+└── README.md  
 
 🌟 Key Features
 🔍 Browse Bikes: Filter by brand, fuel type, price, and more
