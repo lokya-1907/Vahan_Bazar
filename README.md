@@ -1,6 +1,51 @@
 # 🏍️ Vahan Bazar – Full Stack Bike Marketplace
+Vehicle Marketplace | React, Node.js, MongoDB
 
-Vahan Bazar is a modern, full-stack web application that allows users to **buy, sell, compare, and explore bikes**. It features a sleek **dark-themed UI**, dynamic filters, and robust backend APIs—designed for **scalability and performance**.
+---
+
+## Problem Statement
+
+Buying and selling vehicles online is often scattered across different platforms, with limited trust, poor user experience, and no real-time interaction. Many existing solutions lack transparency, modern UI, and secure communication between buyers and sellers.
+
+There is a need for a dedicated marketplace where users can:
+
+Post vehicles for sale 📝
+
+Browse/filter/search listings 🔎
+
+Chat with sellers instantly 💬
+
+Enjoy a smooth, secure, and responsive experience
+
+Vaahan Bazaar solves this by combining a React frontend with a Node.js + Express backend, a MongoDB database, and Socket.io for real-time updates.
+
+Detailed Proposal & Features
+
+Frontend: React + TypeScript + Tailwind CSS for styling
+
+Backend: Node.js + Express for APIs
+
+Database: MongoDB with Mongoose ORM
+
+Authentication: JWT-based secure login
+
+Communication: Socket.io for real-time messaging
+
+---
+
+## Features Implemented:
+
+Vehicle listing creation & browsing
+
+Filters (by price, type, brand)
+
+Responsive, modern UI
+
+User login/signup
+
+Secure chat between buyers and sellers
+
+Cloud-hosted database with fast queries
 
 ---
 
@@ -72,6 +117,50 @@ vahan-bazar/
 - 💸 **Finance Tools:** EMI calculator and booking management.  
 
 ---
+## Team Contributions 
+
+#### Lokya Lochana (Lead – Backend & Integration)
+
+Designed & implemented backend APIs (Express + JWT)
+
+Integrated Socket.io for real-time messaging
+
+Coordinated project structure & flow
+
+#### Sri Hari Krishna (Frontend Developer)
+
+Built React pages & components
+
+Implemented filtering, navigation, and state management
+
+Integrated Tailwind CSS for styling
+
+#### Tanmai (UI/UX Designer)
+
+Designed wireframes in Figma
+
+Ensured responsive layouts & intuitive navigation
+
+Styled mobile and desktop interfaces
+
+#### Saloni (Database Developer)
+
+Modeled MongoDB schemas for users, vehicles, chats
+
+Indexed queries for faster search
+
+Setup MongoDB Atlas for hosting
+
+#### Nayana (Frontend & Demo Specialist)
+
+Worked on UI polish and animations
+
+Helped optimize frontend performance
+
+Led final app demo and GitHub setup
+
+---
+
 
 ## 📦 Installation
 
@@ -105,3 +194,21 @@ Admin panel for content moderation
 Payment gateway integration
 
 Push notifications for launches and offers
+
+### Credits ✨
+
+#### Code Maverics
+
+Lokya Lochana (Lead – Backend & Integration)
+
+Sri Hari Krishna (Frontend)
+
+Tanmai (UI/UX)
+
+Saloni (Database)
+
+Nayana (Frontend & Demo)
+
+---
+
+"Buy Smart, Sell Easy with Vaahan Bazaar 🚗"
