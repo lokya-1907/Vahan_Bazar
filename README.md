@@ -1,4 +1,5 @@
 🏍️ Vahan Bazar – Full Stack Bike Marketplace
+
 Vahan Bazar is a modern, full-stack web application that allows users to buy, sell, compare, and explore bikes. It features a sleek dark-themed UI, dynamic filters, and robust backend APIs—designed for scalability and performance.
 
 🚀 Tech Stack
@@ -10,6 +11,7 @@ Auth	JWT, Protected Routes
 Styling	Tailwind CSS, PostCSS
 State Mgmt	Context API, Custom Hooks
 
+
 🧱 Project Structure
 vahan-bazar/
 │
@@ -20,105 +22,68 @@ vahan-bazar/
 │   │
 │   ├── src/
 │   │   ├── assets/                   # Images, icons, logos
-│   │   ├── components/              # Reusable UI components
-│   │   │   ├── Navbar.tsx
-│   │   │   ├── Footer.tsx
-│   │   │   ├── ProtectedRoute.tsx
-│   │   │   └── ...
-│   │   ├── contexts/                # Global state (e.g. AuthContext)
-│   │   ├── hooks/                   # Custom React hooks
-│   │   ├── pages/                   # Route-level views
-│   │   │   ├── Home.tsx
-│   │   │   ├── Bikes.tsx
-│   │   │   ├── BikeDetail.tsx
-│   │   │   ├── UsedBikes.tsx
-│   │   │   ├── Showrooms.tsx
-│   │   │   ├── Compare.tsx
-│   │   │   ├── Finance.tsx
-│   │   │   ├── Upcoming.tsx
-│   │   │   ├── Favorites.tsx
-│   │   │   ├── Bookings.tsx
-│   │   │   ├── DealerDashboard.tsx
-│   │   │   ├── Login.tsx
-│   │   │   ├── Register.tsx
-│   │   │   ├── Profile.tsx
-│   │   │   └── ...
-│   │   ├── utils/                   # Utility functions
-│   │   │   └── api.ts               # API service layer
-│   │   ├── App.tsx                  # Main app component with routing
-│   │   ├── App.css                  # Component-level styles
-│   │   ├── index.tsx                # Entry point
-│   │   ├── index.css                # Global styles
-│   │   └── theme.js                 # Theme variables (optional)
+│   │   ├── components/               # Reusable UI components
+│   │   ├── contexts/                 # Global state (e.g., AuthContext)
+│   │   ├── hooks/                    # Custom React hooks
+│   │   ├── pages/                    # Route-level views
+│   │   ├── utils/                    # Utility functions (e.g., api.ts)
+│   │   ├── App.tsx                   # Main app component with routing
+│   │   ├── index.tsx                 # Entry point
+│   │   ├── index.css                 # Global styles
+│   │   └── theme.js                  # Theme variables (optional)
 │   │
 │   ├── package.json
-│   ├── postcss.config.js
 │   └── README.md
 │
 ├── backend/                          # Node.js + Express + Sequelize
 │   ├── config/                       # DB config and environment setup
-│   │   ├── config.json
-│   │   └── database.js
-│   ├── controllers/                 # Business logic for each route
-│   ├── middleware/                  # Auth, error handling, etc.
-│   ├── migrations/                  # Sequelize migration files
-│   ├── models/                      # Sequelize models
-│   ├── routes/                      # API endpoints
-│   │   ├── alerts.js
-│   │   ├── auth.js
-│   │   ├── bikes.js
-│   │   ├── bookings.js
-│   │   ├── compare.js
-│   │   ├── dealers.js
-│   │   ├── finance.js
-│   │   ├── reviews.js
-│   │   ├── showrooms.js
-│   │   ├── upcoming.js
-│   │   ├── usedBikes.js
-│   │   └── users.js
-│   ├── seeders/                     # Initial data population
-│   ├── utils/                       # Helper functions
-│   ├── app.js                       # Express app setup
-│   ├── server.js                    # Server entry point
-│   ├── .env                         # Environment variables
-│   ├── env.local                    # Local environment overrides
+│   ├── controllers/                  # Business logic for each route
+│   ├── middleware/                   # Auth, error handling, etc.
+│   ├── migrations/                   # Sequelize migration files
+│   ├── models/                       # Sequelize models
+│   ├── routes/                       # API endpoints
+│   ├── seeders/                      # Initial data population
+│   ├── utils/                        # Helper functions
+│   ├── app.js                        # Express app setup
+│   ├── server.js                     # Server entry point
+│   ├── .env                          # Environment variables
 │   ├── package.json
-│   ├── package-lock.json
 │   └── README.md
 │
-└── README.md                        
+└── README.md
 
 🌟 Key Features
-🔍 Browse Bikes: Filter by brand, fuel type, price, and more
 
-⚖️ Compare Bikes: Side-by-side spec comparison
+🔍 Browse Bikes: Filter by brand, fuel type, price, and more.
 
-🛵 Used Bikes Marketplace: Verified listings with location and price
+⚖️ Compare Bikes: Side-by-side spec comparison.
 
-🏢 Showroom Locator: Map-based search with booking options
+🛵 Used Bikes Marketplace: Verified listings with location and price.
 
-📅 Upcoming Launches: Timeline of future bike models
+🏢 Showroom Locator: Map-based search with booking options.
 
-❤️ Favorites: Save and track preferred bikes
+📅 Upcoming Launches: Timeline of future bike models.
 
-🔐 Authentication: Role-based access for users and dealers
+❤️ Favorites: Save and track preferred bikes.
 
-💸 Finance Tools: EMI calculator and booking management
+🔐 Authentication: Role-based access for users and dealers.
+
+💸 Finance Tools: EMI calculator and booking management.
 
 📦 Installation
-bash
-# Frontend
+Frontend
 cd frontend
 npm install
 npm run dev
 
-# Backend
+Backend
 cd backend
 npm install
 npm run dev
 
 🔐 Environment Variables
-Create a .env file in the backend with:
+
+Create a .env file in the backend folder with:
 
 DB_HOST=localhost
 DB_USER=your_db_user
@@ -126,6 +91,7 @@ DB_PASS=your_db_password
 JWT_SECRET=your_jwt_secret
 
 📌 Future Enhancements
+
 Dealer dashboard with analytics
 
 Admin panel for content moderation
