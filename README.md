@@ -97,7 +97,7 @@ DB_PASS=your_db_password
 JWT_SECRET=your_jwt_secret
 ```
 
-## 📌 Future Enhancements
+### 📌 Future Enhancements
 Dealer dashboard with analytics
 
 Admin panel for content moderation
@@ -105,3 +105,6 @@ Admin panel for content moderation
 Payment gateway integration
 
 Push notifications for launches and offers
+
+### Live Preview Link
+https://tinyurl.com/f8wxzswv
