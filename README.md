@@ -86,7 +86,7 @@ vahan-bazar/
 │   ├── package-lock.json
 │   └── README.md
 │
-└── README.md                        # Root-level documentation
+└── README.md                        
 
 🌟 Key Features
 🔍 Browse Bikes: Filter by brand, fuel type, price, and more
