@@ -105,6 +105,3 @@ Admin panel for content moderation
 Payment gateway integration
 
 Push notifications for launches and offers
-
-### Live Preview Link
-https://tinyurl.com/f8wxzswv
